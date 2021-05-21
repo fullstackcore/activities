@@ -1,0 +1,15 @@
+{
+    "bracket-pair-colorizer-2.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.5"
+    ],
+    "json.schemas": [],
+    "editor.formatOnSave": true,
+    "npm.exclude": "",
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    }
+}
