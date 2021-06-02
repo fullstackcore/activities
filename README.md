@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Getting Started with dotnet CLI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [dotnet CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/).
+
+dotnet new sln
+
+dotnet new webapi -n API
+
+dotnet new classlib -n Application 
+
+dotnet new classlib -n Persitence
+
+dotnet new classlib -n Domain 
+
+dotnet sln add
 
 ## Available Scripts
 
-In the project directory, you can run:
+Clean Architecture and the CQRS + Mediator pattern
 
-### `npm start`
+Entity Framework
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Seeding Data
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Setting up and configuring ASP.NET Core identity for authentication
 
-### `npm test`
+Using AutoMapper in ASP.NET Core
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Using SignalR to enable real time web communication to a chat feature in our app
 
-### `npm run build`
+Publishing the application to IIS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Getting an ‘A’ rating for security from a well known security scanning site.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Many more things as well
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Tools used`
 
-### `npm run eject`
+Project is build using Visual Studio Code, a free (and fantastic) cross platform code editor. You can of course use any code editor you like and any Operating system you like... as long as it's Windows, Linux or Mac
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `Project Goal`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Learn how to build an application from start to publishing with .Net Core (v2.2), React (with Typescript) and Mobx
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+How to build a Web API in .Net Core with Clean Architecture using the CQRS + Mediator pattern
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+How to use AutoMapper and MediatR packages in the .Net projects
 
-## Learn More
+How to build a multi-project solution with .Net Core
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+How to use Entity Framework Core as the Object Relational Mapper
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+How to integrate ASPNET Core SignalR into an application for real time web communication
+
+How to add Identity and Authentication using .Net Core Identity
+
+How to build a Client side application for the API with React
+
+How to use MobX as a state management library
+
+How to build our own Photo upload widget with a Dropzone and a Cropper to resize images
+
